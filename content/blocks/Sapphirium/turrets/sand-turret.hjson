@@ -1,0 +1,49 @@
+
+ammoTypes: {
+sand: {
+type: ArtilleryBulletType
+width: 11
+height: 11
+splashDamageRadius: 25
+splashDamage: 30
+knockback: 0.3
+collidesTiles: false
+lifetime: 80
+speed: 3
+collidesAir: false
+hitEffect: flakExplosion
+despawnEffect: flakExplosion
+fragBullets: 4
+fragCone: 360
+status: slow
+statusDuration: 60
+fragBullet: {
+type: BasicBulletType
+width: 7
+height: 7
+damage: 5
+hitEffect: flakExplosion
+despawnEffect: flakExplosion
+speed: 6
+lifetime: 20
+}
+}
+}
+targetAir: false
+reloadTime: 80
+recoilAmount: 3
+range: 240
+inaccuracy: 3
+shots: 2
+spread: 4
+rotateSpeed: 8
+shootCone: 15
+shootSound: bang
+requirements: [
+copper/25
+lead/15
+graphite/20
+]
+category: turret
+research: hail
+health: 200

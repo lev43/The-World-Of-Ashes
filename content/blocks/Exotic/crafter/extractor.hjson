@@ -1,0 +1,42 @@
+type: GenericCrafter
+size: 2
+drawer: drawRotator
+craftTime: 90
+consumes: {
+  power: 1.5
+  items: {
+    items: [
+      scrap/3
+    ]
+  }
+  liquid: {
+    liquid: water
+    amount: 0.2
+  }
+}
+outputItem: anden/1
+updateEffect: {
+  type: ParticleEffect
+  length: 6
+  particles: 5
+  lifetime: 35
+  colorFrom: e65555
+  colorTo: e6555550
+  sizeFrom: 0.75
+}
+craftEffect: {
+  type: ParticleEffect
+  length: 12
+  lifetime: 45
+  particles: 12
+  colorFrom: e65555
+  colorTo: e6555550
+  sizeFrom: 1.5
+  sizeTo: 0
+}
+category: crafting
+research: graphite-press
+requirements: [
+  copper/70
+  lead/60
+]

@@ -1,0 +1,17 @@
+
+health: 3000
+size: 5
+powerProduction: 6.7
+category: power
+placeableLiquid: true
+requirements: [
+graphite/345
+silicon/288
+creostone/115
+phase-fabric/75
+thorium/50
+]
+research: {
+parent: solar-panel-gigantic
+objectives: [creotite-converter]
+}

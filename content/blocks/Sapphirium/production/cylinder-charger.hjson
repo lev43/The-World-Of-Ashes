@@ -1,0 +1,51 @@
+type: AttributeCrafter
+attribute: heat
+maxBoost: 3.5
+consumes: {
+power: 3
+liquid: surge-mass/0.6
+items: {
+items: [
+charged-lead/2
+charged-stick/2
+charged-ingot/2
+]
+}
+}
+outputItem: charged-cylinder/2
+craftTime: 145
+drawer: {
+type: DrawArcSmelter
+flameColor: fff587
+midColor: ffe680
+flameRad: 1.5
+circleSpace: 2
+circleStroke: 1.5
+alpha: 0.76
+particles: 30
+}
+itemCapacity: 14
+liquidCapacity: 30
+craftEffect: {
+type: ParticleEffect
+particles: 6
+cone: 360
+sizeFrom: 6
+sizeTo: 0
+region: rhombus
+lifetime: 40
+length: 15
+colorFrom: fff480
+colorTo: e8d174
+}
+category: crafting
+ambientSound: respawning
+ambientSoundVolume: 0.15
+requirements: [
+titanium/125
+graphite/75
+silicon/55
+surge-alloy/35
+]
+research: ingot-charger
+size: 3

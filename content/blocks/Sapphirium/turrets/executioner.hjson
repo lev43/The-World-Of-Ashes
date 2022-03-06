@@ -1,0 +1,39 @@
+requirements: [
+titanium/2800
+plastanium/2400
+silicon/1600
+creostone/1350
+surge-alloy/860
+thorium/760
+]
+buildCostMultiplier: 0.85
+range: 550
+chargeTime: 300
+chargeMaxDelay: 290
+chargeEffects: 10
+recoilAmount: 10
+reloadTime: 600
+cooldown: 600
+powerUse: 21
+shootShake: 14
+shootLength: 10
+liquidCapacity: 40
+rotateSpeed: 1.5
+shootEffect: greenLaserCharge
+smokeEffect: none
+chargeEffect: greenLaserCharge
+chargeBeginEffect: greenLaserCharge
+shootSound: laserblast
+chargeSound: lasercharge
+heatColor: ff0000
+size: 8
+health: 18500
+coolantMultiplier: 2.5
+coolantUsage: 4
+category: turret
+consumes: {
+liquid: ledonite-liquid/2
+}
+research: {
+parent: foreshadow
+}

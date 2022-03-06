@@ -1,0 +1,20 @@
+health: 7200
+size: 3
+radius: 30
+shieldHealth: 1000
+cooldownNormal: 1
+phaseRadiusBoost: 150
+phaseShieldBoost: 800
+placeableLiquid: true
+category: defense
+researchCostMultiplier: 2.5
+buildCostMultiplier: 2.5
+group: walls
+requirements: [
+creostone/165
+silicon/80
+]
+research: {
+parent: creotite-wall-turret
+objectives: [force-projector]
+}

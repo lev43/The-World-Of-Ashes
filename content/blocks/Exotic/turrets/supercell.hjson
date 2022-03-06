@@ -1,0 +1,61 @@
+type: ItemTurret
+size: 8
+liquidCapacity: 350
+range: 600
+health: 270000
+reloadTime: 15
+recoilAmount: 4
+inaccuracy: 5
+shots: 2
+xRand: 8
+rotateSpeed: 2.9
+ammoTypes: {
+  amethyst-gem: {
+    damage: 720
+    splashDamage: 550
+    splashDamageRadius: 19
+    speed: 8
+    lifetime: 75
+    width: 12
+    height: 20
+    hitEffect: flakExplosion
+    frontColor: ffffff
+    backColor: a56be8
+    fragBullets: 10
+    fragBullet: {
+      damage: 350
+      speed: 4
+      lifetime: 15
+      frontColor: ffffff
+      backColor: a56be8
+    }
+  }
+  bluewolframite: {
+    damage: 1020
+    splashDamage: 600
+    splashDamageRadius: 21
+    speed: 8
+    lifetime: 75
+    width: 12
+    height: 20
+    frontColor: ffffff
+    backColor: 8ca4f5
+    lightning: 12
+    lightningDamage: 250
+    lightningColor: 8ca4f5
+    lightningLength: 15
+  }
+}
+coolantUsage: 3.2
+coolantMultiplier: 0.3
+category: turret
+requirements: [
+  copper/20000
+  graphite/18000
+  plastanium/18000
+  thorium/16000
+  surge-alloy/9000
+  amethyst-gem/2500
+  draconium/1500
+  shadow/1000
+]

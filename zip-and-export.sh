@@ -1,0 +1,1 @@
+zip "The modpack" -r .  && mv "The modpack.zip" /home/lev43/.local/share/Mindustry/mods && java -jar ~/"Рабочий стол"/Mindustry.jar

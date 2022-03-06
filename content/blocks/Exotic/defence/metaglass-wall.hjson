@@ -1,0 +1,8 @@
+type: Wall
+health: 380
+absorbLasers: true
+category: defense
+research: copper-wall-large
+requirements: [
+  metaglass/6
+]

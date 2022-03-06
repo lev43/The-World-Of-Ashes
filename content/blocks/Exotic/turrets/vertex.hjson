@@ -1,0 +1,29 @@
+type: PowerTurret
+size: 8
+health: 510000
+range: 80
+reloadTime: 140
+recoilAmount: -50
+restitution: 0.2
+powerUse: 1288
+shootSound: none
+shootType: {
+  type: ShrapnelBulletType
+  damage: 250000
+  length: 50
+  width: 0.01
+  serrations: 0
+  toColor: ffffff
+  status: smokeofanarchy_modpack-bleeding
+}
+coolantUsage: 2.1
+research: 0r-halberd
+category: turret
+requirements: [
+  copper/25000
+  lead/30000
+  thorium/20000
+  surge-alloy/15000
+  draconium/4500
+  shadow/750
+]

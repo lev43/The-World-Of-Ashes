@@ -1,0 +1,30 @@
+type: NuclearReactor
+size: 6
+health: 2500
+itemCapacity: 135
+liquidCapacity: 64
+itemDuration: 770
+powerProduction: 540
+consumes: {
+  liquid: {
+    liquid: supercoolant
+    amount: 0.32
+  }
+  items: {
+    items: [
+      draconium/1
+    ]
+  }
+}
+requirements: [
+  lead/1550
+  silicon/1750
+  titanium/1360
+  thorium/1220
+  plastanium/750
+  phase-fabric/650
+  amethyst-gem/700
+  bluewolframite/600
+]
+category: power
+research: thorium-reactor

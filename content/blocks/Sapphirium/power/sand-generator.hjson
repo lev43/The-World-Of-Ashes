@@ -1,0 +1,21 @@
+type: SingleTypeGenerator
+requirements: [
+lead/50
+graphite/50
+]
+category: power
+consumes: {
+liquid: water/0.04
+items: {
+items: [
+sand/1
+]
+}
+}
+itemDuration: 80
+powerProduction: 0.5
+hasLiquids: true
+hasItems: true
+ambientSound: smelter
+ambientSoundVolume: 0.03
+research: combustion-generator

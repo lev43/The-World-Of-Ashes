@@ -1,0 +1,132 @@
+
+size: 2
+category: turret
+research: {
+parent: cast
+objectives: [cyclone]
+}
+requirements: [
+copper/125
+graphite/85
+titanium/60
+metaglass/40
+]
+health: 600
+range: 180
+ammoTypes: {
+copper: {
+sprite: dartt
+width: 7
+height: 9
+damage: 9
+speed: 3
+lifetime: 60
+shootEffect: shootSmall
+smokeEffect: shootSmallSmoke
+pierce: true
+pierceCap: 1
+}
+graphite: {
+sprite: dartt
+width: 9
+height: 12
+damage: 16
+speed: 3.5
+lifetime: 51
+reloadMultiplier: 0.6
+ammoMultiplier: 3
+pierce: true
+pierceCap: 2
+}
+metaglass: {
+sprite: dartt
+width: 9
+height: 12
+damage: 12
+speed: 5
+lifetime: 36
+reloadMultiplier: 0.8
+ammoMultiplier: 2
+fragBullets: 5
+fragCone: 90
+fragBullet: {
+type: BasicBulletType
+width: 7
+height: 7
+speed: 5
+lifetime: 20
+damage: 5
+pierce: true
+pierceCap: 1
+knockback: 0.4
+}
+}
+thorium: {
+sprite: dartt
+width: 10
+height: 13
+damage: 24
+speed: 4
+lifetime: 45
+shootEffect: shootBig
+smokeEffect: shootBigSmoke
+ammoMultiplier: 4
+pierce: true
+pierceCap: 3
+}
+silicon: {
+sprite: dartt
+width: 7
+height: 9
+damage: 14
+speed: 3
+lifetime: 60
+reloadMultiplier: 0.8
+ammoMultiplier: 5
+homingPower: 0.10
+pierce: true
+pierceCap: 2
+}
+pyratite: {
+sprite: dartt
+width: 10
+height: 12
+damage: 14
+speed: 3.2
+lifetime: 56.25
+frontColor: f8ad42
+backColor: f68021
+status: burning
+statusDuration: 110
+makeFire: true
+inaccuracy: 4
+pierce: true
+pierceCap: 2
+}
+creostone: {
+sprite: dartt
+width: 12
+height: 14
+damage: 30
+speed: 5
+lifetime: 36
+frontColor: eb8778
+backColor: bd5553
+status: melting
+statusDuration: 110
+homingPower: 0.20
+inaccuracy: 3
+ammoMultiplier: 6
+reloadMultiplier: 0.75
+pierce: true
+pierceCap: 4
+}
+}
+reloadTime: 8
+recoilAmount: 3
+rotateSpeed: 8
+health: 960
+shootShake: 1
+ammoEjectBack: 1
+ammoUseEffect: casing2
+shootSound: throw

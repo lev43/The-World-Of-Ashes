@@ -1,0 +1,31 @@
+
+drawer: DrawMixer
+requirements: [
+copper/95
+lead/75
+silicon/60
+thorium/45
+]
+outputLiquid: creotite/0.4
+craftTime: 80
+size: 3
+hasPower: true
+hasItems: true
+hasLiquids: true
+outputsLiquid: true
+consumes: {
+power: 5.5
+liquid: ledonite-liquid/0.4
+items: {
+items: [
+pyratite/2
+sand/5
+]
+}
+}
+itemCapacity: 10
+liquidCapacity: 22
+rotate: false
+solid: true
+category: crafting
+research: cryofluid-mixer

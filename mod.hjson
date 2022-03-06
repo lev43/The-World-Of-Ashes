@@ -1,0 +1,16 @@
+{
+  name: smokeofanarchy_modpack
+  displayName: The World of Ashes
+  author: lev43 and MaxSmokeSkaarj
+  description:
+    '''
+    This modpack was built specifically for the "Smoke Of Anarchy" server.
+    This modpack includes:
+    TurretsMod
+    ExoticMod
+    ADC(Sapphirium)
+    '''
+  version: 0.1 alpha
+  minGameVersion: 135
+
+}
