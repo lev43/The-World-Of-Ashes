@@ -25,7 +25,7 @@
 			backColor: B19416
 			frontColor: FFD10B
 			splashDamageRadius: 50
-			splashDamage: 600
+			splashDamage: 300
 		}
 	}
 	coolantMultiplier: 0.9
