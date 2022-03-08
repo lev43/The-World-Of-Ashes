@@ -1,4 +1,4 @@
-const creotitePowerStation = extendContent(SectorPreset, "Sapphirium/creotite-power-station", Planets.serpulo, 26, {});
+const creotitePowerStation = extendContent(SectorPreset, "creotite-power-station", Planets.serpulo, 26, {});
   creotitePowerStation.captureWave = 55;
   creotitePowerStation.difficulty = 7;
   //creotitePowerStation.alwaysUnlocked = true;

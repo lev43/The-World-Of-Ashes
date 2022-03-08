@@ -1,6 +1,6 @@
 const statuses = require("Sapphirium/statuses/statuses");
 
-const spear = extend(BasicBulletType, 8, 35, "spear-bullet", {
+const blade = extend(BasicBulletType, 8, 35, "spear-bullet", {
   
     width: 15,
     height: 40,
@@ -74,7 +74,7 @@ const multishock = extend(PowerTurret, "multishocker", {});
 const north = extend(PowerTurret, "north", {});
 
 const impaler = extend(PowerTurret, "impaler", {});
-impaler.shootType = spear;
+impaler.shootType = blade;
 
 const arrow = extend(PowerTurret, "arrow", {});
 
@@ -294,7 +294,7 @@ const warhead = extend(ItemTurret, "warhead", {});
 
 const shotgun = extend(ItemTurret, "shotgun", {});
 
-const spear = extend(PowerTurret, "spear", {
+const sword = extend(PowerTurret, "sword", {
 shootType: saw
 });
 
