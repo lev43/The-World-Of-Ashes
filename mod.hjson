@@ -10,7 +10,7 @@
     ExoticMod
     ADC(Sapphirium)
     '''
-  version: 0.2 alpha
+  version: 0.3 alpha
   minGameVersion: 135
 
 }
